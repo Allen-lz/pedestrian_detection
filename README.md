@@ -4,10 +4,11 @@
 
 2. Steps to run:
     * Step1:  put the model weight`rcnn_emd_simple_mge.pth` on `./model/rcnn_emd_simple/outputs`.
-              then, put the test images in `./test_imgs/`
+              then, put the test images in `./test_imgs/` or put the test video in `./test_video/`
 	```
 	cd tools
 	python inference.py
+	python video_inference.py
 	```
     
 	* Note:  the result will be saved in `./tools/outputs`
